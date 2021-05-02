@@ -42,6 +42,10 @@ $margin: 12px;
     width: 24px;
     height: 24px;
   }
+
+  .overview-icon StIcon {
+    icon-shadow: rgba(0, 0, 0, 0.7) 0 2px 6px;
+  }
 }
 
 @if gnome-shell.$version >= 40 {
